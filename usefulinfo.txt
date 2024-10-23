@@ -1,0 +1,80 @@
+-----------------  1 npm  creates project for Vue, name FrZero , all "Add..." question answers is No
+https://www.youtube.com/watch?v=jtVeyuG1qUQ&list=PLDyJYA6aTY1lwiVmcFFb7g0dRehAXmWUn&index=2
+
+ > npm init vue@latest   
+Need to install the following packages:
+create-vue@3.11.1
+Ok to proceed? (y) y
+
+> npx
+> create-vue
+
+Vue.js - The Progressive JavaScript Framework
+
+√ Project name: ... FrZero
+√ Package name: ... frzero
+√ Add TypeScript? ... No / Yes
+√ Add JSX Support? ... No / Yes
+√ Add Vue Router for Single Page Application development? ... No / Yes
+√ Add Pinia for state management? ... No / Yes
+√ Add Vitest for Unit Testing? ... No / Yes
+√ Add an End-to-End Testing Solution? » No
+√ Add ESLint for code quality? ... No / Yes
+√ Add Vue DevTools 7 extension for debugging? (experimental) ... No / Yes
+
+Scaffolding project in D:\Projects\JSLibs\LearnVueJS\FrZero...
+
+Done. Now run:
+
+  cd FrZero
+  npm install
+  npm run dev
+2-----------------------------
+> cd FrZero
+>npm install
+
+added 31 packages, and audited 32 packages in 22s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+> npm run dev                 --runs server
+
+> frzero@0.0.0 dev
+> vite
+
+
+  VITE v5.4.9  ready in 640 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help  
+
+  3 -------------- Registering in https://openweathermap.org/
+  gmail, psw w....5owm
+api key: 3c720744fdffed8eba77cfbfa0911a74
+  https://openweathermap.org/current   
+
+  https://api.openweathermap.org/data/2.5/weather?q=Yerevan&units=metric&appid=3c720744fdffed8eba77cfbfa0911a74
+
+  4 --------------- install axios
+  FrZero>npm i axios
+
+added 9 packages, and audited 41 packages in 4s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+5 --------------------- deploy to static azure web static site
+install plugins 'Azure Static Web Apps', 'Azure Storage'
+
+npm run build      creates 'dist' folder with index.html file and 'assests' folder with js,css files.
+
+based on https://www.youtube.com/watch?v=p8W5m5gqj7o    Deploying VueJS to an Azure Static Website
+https://vuekarenstorage.z19.web.core.windows.net/
+
+In Azure create local torage and deploy using VSCode or upload content(press Upload on left upper corner) 
+of "dist" folder to "data storage/containers/web" folder
