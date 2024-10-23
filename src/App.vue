@@ -31,8 +31,8 @@ function getWeater(){
 
 <template>
     <div class="wrapper">
-        <h1> Wheather application </h1>
-        <p>Know wheather in {{ city  == "" ? "your city" : cityName}}</p>
+        <h1> Weather application </h1>
+        <p>Know weather in {{ city  == "" ? "your city" : cityName}}</p>
         <!-- <input type="text" @input="city=$event.target.value" placeholder="Input town"> -->
         <input type="text" v-model="city" placeholder="Input city">
         <button v-if="city != ''"  @click="getWeater()">Get weather</button>
