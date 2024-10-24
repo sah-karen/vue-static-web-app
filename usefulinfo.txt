@@ -1,4 +1,4 @@
------------------  1 npm  creates project for Vue, name FrZero , all "Add..." question answers is No
+-----------------  1 npm  creates project for Vue, name vue-static-web-app (previous FrZero) or  , all "Add..." question answers is No
 https://www.youtube.com/watch?v=jtVeyuG1qUQ&list=PLDyJYA6aTY1lwiVmcFFb7g0dRehAXmWUn&index=2
 
  > npm init vue@latest   
@@ -76,5 +76,16 @@ npm run build      creates 'dist' folder with index.html file and 'assests' fold
 based on https://www.youtube.com/watch?v=p8W5m5gqj7o    Deploying VueJS to an Azure Static Website
 https://vuekarenstorage.z19.web.core.windows.net/
 
-In Azure create local torage and deploy using VSCode or upload content(press Upload on left upper corner) 
+In Azure: create local storage and deploy using VSCode or upload content(press Upload on left upper corner) 
 of "dist" folder to "data storage/containers/web" folder
+
+----------------------------------------------
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository
+github token AZURE_STATIC_WEB_APPS_API_TOKEN_WONDERFUL_COAST_044059E10
+stored in vue-static-web-app/settings/secrets/actions
+  here is stored .github\workflows\azure-static-web-apps-wonderful-coast-044059e10.yaml
+
+https://learn.microsoft.com/en-us/azure/static-web-apps/deployment-token-management#update-a-secret-in-the-github-repository   
+azure token AZURE_STATIC_WEB_APPS_API_TOKEN_WONDERFUL_COAST_044059E10
+store in "vuestaticwebapp/Overview/Manage deployment token" -  at upper middle part of scrren
+  
